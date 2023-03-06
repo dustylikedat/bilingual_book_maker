@@ -9,17 +9,17 @@ Make bilingual epub books Using AI translate
 ## Preparation
 
 1. ChatGPT or OpenAI token
-2. prepared epub books
+2. Prepared epub books
 3. Environment with internet access or proxy
-4. python3.8+
+4. Python3.8+
 
 
 ## Use
 
-1. pip install -r requirements.txt
+1. pip install -r requirements.txt.
 2. OpenAI API key. If you have multiple keys, separate them by commas (xxx,xxx,xxx) to reduce errors caused by API call limits.
 3. A sample book, test_books/animal_farm.epub, is provided for testing purposes.
-4. The default underlying model is [GPT-3.5-turbo](https://openai.com/blog/introducing-chatgpt-and-whisper-apis) ，which is used by ChatGPT currently. Use `--model gpt3` to change the underlying model to `GPT3`
+4. The default underlying model is [GPT-3.5-turbo](https://openai.com/blog/introducing-chatgpt-and-whisper-apis) ，which is used by ChatGPT currently. Use `--model gpt3` to change the underlying model to `GPT3`.
 5. Use --test command to preview the result if you haven't paid for the service. Note that there is a limit and it may take some time.
 6. Set the target language like `--language "Simplified Chinese"`.
    Support ` "Japanese" / "Traditional Chinese" / "German" / "French" / "Korean"`.
@@ -47,8 +47,8 @@ python make_book.py --book_name 'animal_farm.epub' --openai_key sk-XXXXX --api_b
 
 ## Notes
 
-1. here is a limit. If you want to speed up the process, consider paying for the service or use multiple OpenAI tokens
-2. PR welcome
+1. Here is a limit. If you want to speed up the process, consider paying for the service or use multiple OpenAI tokens.
+2. PR welcome.
 3. The DeepL model will be updated later.
 
 
